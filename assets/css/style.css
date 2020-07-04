@@ -1,0 +1,149 @@
+html{
+  background-color: #cccccc;
+}
+
+header{
+  background-color: #ffffff;
+}
+
+body{
+  align-content: center;
+}
+
+.content{
+  width: 960px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+header{
+  display: flex;
+}
+
+.nombre{
+  margin-right: 100px;
+  margin-left: 235px;
+  background-color: #4CC2BC;
+  color:#ffffff;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.cat{
+  display: flex;
+  text-indent: 50px;
+  align-self: center;
+}
+
+.links{
+  color: #777777;
+}
+
+.tamPage{
+  padding: 0px;
+  margin: 0px;
+}
+
+.subTitle{
+  color: #4aaaa5;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.textoT{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textoP{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  line-height: 200%;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.figura{
+  float: left;
+  margin: 10px;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer{
+    clear: both;
+    border-top: 5px solid #4BABA6;
+    background-color: #666666;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+input[type=text]{
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin: 8px 0;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+}
+
+input[type=email]{
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin: 8px 0;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+}
+
+input[type=submit]{
+  color:#ffffff;
+  background-color: #4CC2BC;
+  margin: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.message{
+  height: 200px;
+}
+
+.imagen{
+  position: relative;
+  display: inline-block;
+  margin: 8px;
+}
+
+.description{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 80%; 
+  text-align: center;
+  width: 60%; 
+  color:#ffffff;
+  background-color: #4aaaa5;
+  height: 15%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+a:hover{
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
